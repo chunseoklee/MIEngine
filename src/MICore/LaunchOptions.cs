@@ -831,7 +831,7 @@ namespace MICore
 
         private static LaunchOptions ExecuteLauncher(HostConfigurationStore configStore, Guid clsidLauncher, string exePath, string args, string dir, object launcherXmlOptions, IDeviceAppLauncherEventCallback eventCallback, TargetEngine targetEngine, Logger logger)
         {
-            var deviceAppLauncher = (IPlatformAppLauncher)HostLoader.VsCoCreateManagedObject(configStore, clsidLauncher);
+            var deviceAppLauncher = (IPlatformAppLauncher)HostLoader.VSCoCreateManagedObject(configStore, clsidLauncher);
             if (deviceAppLauncher == null)
             {
                 throw new ArgumentException(string.Format(CultureInfo.CurrentCulture, MICoreResources.Error_LauncherNotFound, clsidLauncher.ToString("B")));
