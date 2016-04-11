@@ -190,7 +190,7 @@ namespace Microsoft.DebugEngineHost
         /// <param name="clsid">CLSID to CoCreate</param>
         /// <returns>[Optional] loaded object. Null if the type is not registered, or points to a type that doesn't exist</returns>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1709:IdentifiersShouldBeCasedCorrectly", MessageId = "Co")]
-        public static object VsCoCreateManagedObject(HostConfigurationStore configStore, Guid clsid)
+        public static object VSCoCreateManagedObject(HostConfigurationStore configStore, Guid clsid)
         {
             throw new NotImplementedException();
         }
