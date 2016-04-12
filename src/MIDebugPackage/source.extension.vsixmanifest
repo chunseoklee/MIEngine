@@ -15,7 +15,5 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.MIDebugEngine.pkgdef" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.AndroidDebugLauncher.pkgdef" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="Microsoft.IOSDebugLauncher.pkgdef" />
   </Assets>
 </PackageManifest>

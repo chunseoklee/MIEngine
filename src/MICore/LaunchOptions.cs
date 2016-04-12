@@ -588,7 +588,7 @@ namespace MICore
                             {
                                 serializer = GetXmlSerializer(typeof(AndroidLaunchOptions));
                                 launcherXmlOptions = Deserialize(serializer, reader);
-                                clsidLauncher = new Guid("C9A403DA-D3AA-4632-A572-E81FF6301E9B");
+                                clsidLauncher = new Guid("1");
                             }
                             break;
 

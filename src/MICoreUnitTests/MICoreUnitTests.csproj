@@ -90,21 +90,15 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="AndroidLauncherTests.cs" />
     <Compile Include="CommandLockTests.cs" />
     <Compile Include="BasicLaunchOptionsTests.cs" />
     <Compile Include="MIResultsTests.cs" />
-    <Compile Include="NdkVersionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="@(RequiredNetFX46FacadeAssemblies)">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AndroidDebugLauncher\AndroidDebugLauncher.csproj">
-      <Project>{e0844bff-2d67-4cb0-8e2a-e9cd888f2eb0}</Project>
-      <Name>AndroidDebugLauncher</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DebugEngineHost.Stub\DebugEngineHost.Stub.csproj">
       <Project>{ea876a2d-ab0f-4204-97dd-dfb3b5568978}</Project>
       <Name>DebugEngineHost.Stub</Name>
